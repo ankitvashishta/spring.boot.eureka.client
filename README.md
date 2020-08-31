@@ -12,3 +12,7 @@ For the @SpringBootApplication to be discovery-aware, we include `spring-cloud-s
 
 Then we can annotate the application with either `@EnableDiscoveryClient` or `@EnableEurekaClient`.<br>
 This annotation is optional if we have the `spring-cloud-starter-netflix-eureka-client` dependency on the classpath.
+
+Run the main class : `com.ankit.spring.boot.eureka.client.EurekaClientApplication` as a Java application.<br>
+Open `localhost:8761` to view the HTML view for Eureka Server.<br>
+<b>Precondition:</b> Run the `spring.boot.eureka.server` application.
